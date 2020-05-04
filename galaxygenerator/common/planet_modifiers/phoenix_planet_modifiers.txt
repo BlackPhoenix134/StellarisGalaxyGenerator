@@ -1,7 +1,0 @@
-pm_phoenix_start = {
-	spawn_chance = {
-		
-	}
-	
-	modifier = "capital_world"
-}
