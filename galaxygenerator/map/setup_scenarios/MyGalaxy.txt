@@ -1,0 +1,90 @@
+static_galaxy_scenario = {
+name = "Sol"
+default = no
+priority = 0
+num_empires = { min = 1 max = 3 }
+num_empire_default = 2
+marauder_empire_default = 1
+marauder_empire_max = 1
+fallen_empire_max = 2
+advanced_empire_default = 1
+core_radius = 0
+colonizable_planet_odds = 1
+primitive_odds = 0
+crisis_strength = 1
+random_hyperlanes = no
+num_wormhole_pairs = { min = 1 max = 3 }
+num_wormhole_pairs_default = 1
+num_gateways = { min = 1 max = 3 }
+num_gateways_default = 1
+
+system = { id = "2" name = "" position = { x = 102 y = -3 } initializer = phoenix_empire_init_01 spawn_weight = { base = 10000 }  }
+system = { id = "3" name = "" position = { x = -123 y = -3 } initializer = phoenix_empire_init_01 spawn_weight = { base = 10000 }  }
+system = { id = "4" name = "" position = { x = 84 y = -12 }  }
+system = { id = "5" name = "" position = { x = 84 y = 9 }  }
+system = { id = "6" name = "" position = { x = 60 y = -24 }  }
+system = { id = "7" name = "" position = { x = 60 y = -6 }  }
+system = { id = "8" name = "" position = { x = 60 y = 18 }  }
+system = { id = "9" name = "" position = { x = 36 y = -42 }  }
+system = { id = "10" name = "" position = { x = 33 y = -24 }  }
+system = { id = "12" name = "" position = { x = 33 y = 9 }  }
+system = { id = "13" name = "" position = { x = 33 y = 27 }  }
+system = { id = "14" name = "" position = { x = -111 y = -12 }  }
+system = { id = "18" name = "" position = { x = -111 y = 6 }  }
+system = { id = "20" name = "" position = { x = -96 y = -6 }  }
+system = { id = "21" name = "" position = { x = -93 y = 21 }  }
+system = { id = "82" name = "" position = { x = -93 y = -36 }  }
+system = { id = "23" name = "" position = { x = -75 y = -21 }  }
+system = { id = "24" name = "" position = { x = -72 y = 6 }  }
+system = { id = "25" name = "" position = { x = -66 y = 36 }  }
+system = { id = "33" name = "" position = { x = -18 y = -3 } initializer = mega_shipyard_init_01 }
+system = { id = "34" name = "" position = { x = -18 y = -42 } initializer = dyson_sphere_init_01 }
+system = { id = "35" name = "" position = { x = -18 y = 27 } initializer = dyson_sphere_init_01 }
+system = { id = "36" name = "" position = { x = 9 y = -42 }  }
+system = { id = "37" name = "" position = { x = -48 y = -42 }  }
+system = { id = "38" name = "" position = { x = -48 y = -6 }  }
+system = { id = "39" name = "" position = { x = 6 y = -3 }  }
+system = { id = "40" name = "" position = { x = 3 y = 30 }  }
+system = { id = "41" name = "" position = { x = -45 y = 33 }  }
+system = { id = "86" name = "" position = { x = 21 y = -6 }  }
+system = { id = "81" name = "" position = { x = -72 y = -42 }  }
+
+add_hyperlane = { from = "86" to = "10" }
+add_hyperlane = { from = "82" to = "20" }
+add_hyperlane = { from = "2" to = "4" }
+add_hyperlane = { from = "2" to = "5" }
+add_hyperlane = { from = "4" to = "7" }
+add_hyperlane = { from = "5" to = "7" }
+add_hyperlane = { from = "12" to = "86" }
+add_hyperlane = { from = "10" to = "7" }
+add_hyperlane = { from = "7" to = "6" }
+add_hyperlane = { from = "6" to = "9" }
+add_hyperlane = { from = "7" to = "8" }
+add_hyperlane = { from = "8" to = "13" }
+add_hyperlane = { from = "39" to = "86" }
+add_hyperlane = { from = "12" to = "7" }
+add_hyperlane = { from = "9" to = "36" }
+add_hyperlane = { from = "36" to = "34" }
+add_hyperlane = { from = "34" to = "37" }
+add_hyperlane = { from = "39" to = "33" }
+add_hyperlane = { from = "33" to = "38" }
+add_hyperlane = { from = "13" to = "40" }
+add_hyperlane = { from = "35" to = "41" }
+add_hyperlane = { from = "41" to = "25" }
+add_hyperlane = { from = "40" to = "35" }
+add_hyperlane = { from = "38" to = "23" }
+add_hyperlane = { from = "38" to = "24" }
+add_hyperlane = { from = "81" to = "82" }
+add_hyperlane = { from = "25" to = "21" }
+add_hyperlane = { from = "23" to = "20" }
+add_hyperlane = { from = "24" to = "20" }
+add_hyperlane = { from = "14" to = "3" }
+add_hyperlane = { from = "14" to = "20" }
+add_hyperlane = { from = "3" to = "18" }
+add_hyperlane = { from = "18" to = "20" }
+add_hyperlane = { from = "37" to = "81" }
+add_hyperlane = { from = "21" to = "20" }
+
+
+
+}
