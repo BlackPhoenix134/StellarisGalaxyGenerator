@@ -4,4 +4,4 @@ tags={
 }
 name="GalGen"
 supported_version="2.6.3"
-path="C:/Users/Owner/Documents/Paradox Interactive/Stellaris/mod/galaxygenerator"
+path="C:/Users/Owner/Documents/Paradox Interactive/Stellaris/mod/GalaxyGenerator"
